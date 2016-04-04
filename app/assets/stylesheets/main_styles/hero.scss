@@ -1,0 +1,52 @@
+.hero {
+	min-height: 100vh;
+	min-width: 100vw;
+	background: image-url("nebula2.jpg") center center no-repeat;
+	background-size: 100%;
+}
+
+.hero {
+	color: #fff;
+}
+
+.hero p {
+	color: #d9d9d9;
+	&:hover {
+		color: #fff;
+	}
+}
+
+.hero {
+	h1, h2, h3
+	h4, h5, h6 {
+		color: #d9d9d9;
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+
+.image-back {
+	padding: 50px;
+	background-color: rgba(#000, .5);
+	&:hover {
+		background-color: rgba(#fff, .25);
+	}
+}
+
+a {
+	color: #6600ff;
+	text-decoration: none;
+	&:hover {
+		color: #000099;
+	}
+	&:active {
+		text-decoration: underline;
+	}
+}
+
+@media screen and (max-width: 1244px) {
+	.hero {
+		background-size: cover;
+	}
+}
