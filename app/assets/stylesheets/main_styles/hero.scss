@@ -9,6 +9,12 @@
 	color: #fff;
 }
 
+.web-dev {
+	text-align: center;
+	line-height: 4em;
+	letter-spacing: .1em;
+}
+
 .hero p {
 	color: #d9d9d9;
 	&:hover {
@@ -16,13 +22,8 @@
 	}
 }
 
-.list-box {
-	background-color: rgba(#000, .25);
-	padding: 25px;
-}
-
 .hero {
-	h1, h2, h3
+	h1, h2, h3,
 	h4, h5, h6 {
 		color: #d9d9d9;
 		&:hover {
@@ -32,26 +33,55 @@
 }
 
 .image-back {
-	padding: 50px;
-	background-color: rgba(#000, .5);
+	padding: 25px;
+	background-color: rgba(#000, .25);
 	&:hover {
-		background-color: rgba(#fff, .25);
+		background-color: rgba(#000, .5);
 	}
 }
 
 a {
-	color: #6600ff;
+	color: #000099;
 	text-decoration: none;
 	&:hover {
-		color: #000099;
+		color:  #6600ff;
 	}
 	&:active {
 		text-decoration: underline;
 	}
 }
 
+
+
+p.list-box {
+	background-color: rgba(#000, .25);
+	padding: 25px;	
+	a {
+		padding-right:  10px;
+		text-align: left;
+	}
+}
+
+// .hero-bottom {
+// 	position: absolute;
+// 	left: 0;
+// 	bottom: 0;
+// }
+
+
+
 @media screen and (max-width: 1244px) {
 	.hero {
 		background-size: cover;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.web-dev {
+		text-align: center;
+		line-height: 2em;
+		letter-spacing: 0em;
 	}
 }
