@@ -9,6 +9,20 @@
 	color: #fff;
 }
 
+.hero-1 {
+	min-height: 15vh;
+
+}
+
+.hero-2 {
+	min-height: 65vh;
+
+}
+
+.hero-3 {
+	min-height: 20vh;
+}
+
 .web-dev {
 	text-align: center;
 	line-height: 4em;
@@ -34,6 +48,8 @@
 
 .image-back {
 	padding: 25px;
+	height: 25vh;
+	width: 25vw;
 	background-color: rgba(#000, .25);
 	&:hover {
 		background-color: rgba(#000, .5);
