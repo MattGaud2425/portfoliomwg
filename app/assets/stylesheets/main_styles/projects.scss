@@ -2,19 +2,45 @@
 	height: 100vh;
 	width: 100vw;
 	background: image-url("pattern2.png") 0 0 repeat;
-	background-size: contain;
+	background-size: 850px;
+}
+
+.projects-rails {
+	background: image-url("pattern1.png") 0 0 repeat;
+	background-size: 200px;
+
+}
+
+.projects-php {
+	background: image-url("pattern2.png") 0 0 repeat;
+	background-size: 200px;
 }
 
 .hero-1 {
 }
 
-.skills {
-	display: none;
+.skills-btn {
+	margin-top: 2.5vh;
 }
 
-.active {
-	display: block;
+.skills-btn {
+	background-color: none;
+	border: none;
+	padding: none;
+	color: none;
 }
+
+.skills {
+	margin-top: 2.5vh;
+}
+
+// .skills {
+// 	display: none;
+// }
+
+// .skills {
+// 	display: block;
+// }
 
 .row-flex.hero-2 {
 	flex-direction: row;

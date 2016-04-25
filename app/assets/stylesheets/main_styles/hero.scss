@@ -10,17 +10,17 @@
 }
 
 .hero-1 {
-	min-height: 15vh;
+	min-height: 20vh;
 
 }
 
 .hero-2 {
-	min-height: 65vh;
+	min-height: 55vh;
 
 }
 
 .hero-3 {
-	min-height: 20vh;
+	min-height: 25vh;
 }
 
 .web-dev {
@@ -88,6 +88,26 @@ p.list-box {
 // 	bottom: 0;
 // }
 
+.plus-icon {
+	font-weight: 200;
+	font-weight: 100;
+}
+.font-icons {
+	li {
+		display: inline-block;
+
+	}
+	a {
+		padding: 25px;
+		color: rgba(#d9d9d9, .75);
+		background-color: #rgba(#000, 1);
+		&:hover {
+		color: rgba(#000, .8);
+		background-color: #rgba(#fff, 1);
+		}
+	}
+}
+
 
 
 @media screen and (max-width: 1244px) {
@@ -99,9 +119,14 @@ p.list-box {
 
 @media screen and (max-width: 768px) {
 
+	.hero {
+		background-size: cover;
+	}
+
 	.web-dev {
 		text-align: center;
 		line-height: 2em;
 		letter-spacing: 0em;
 	}
+
 }

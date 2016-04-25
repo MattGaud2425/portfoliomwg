@@ -124,20 +124,6 @@ $susy: (
   &-12 { @include span(12); }
   }
 
-  .off {
-	&-1 { @include push(2); }
-	&-2 { @include push(4); }
-	&-3 { @include push(6); }
-	&-4 { @include push(8); }
-	&-5 { @include push(10); }
-	&-6 { @include push(12); }
-	&-7 { @include push(12); }
-	&-8 { @include push(12); }
-	&-9 { @include push(12); }
-	&-10 { @include push(12); }
-	&-11 { @include push(12); }
-	&-12 { @include push(12); }
-}
 }
 
 @media screen and (max-width: 560px) {
@@ -155,21 +141,7 @@ $susy: (
   &-11 { @include span(12); }
   &-12 { @include span(12); }
   }
-
-  .off {
-	&-1 { @include push(12); }
-	&-2 { @include push(12); }
-	&-3 { @include push(12); }
-	&-4 { @include push(12); }
-	&-5 { @include push(12); }
-	&-6 { @include push(12); }
-	&-7 { @include push(12); }
-	&-8 { @include push(12); }
-	&-9 { @include push(12); }
-	&-10 { @include push(12); }
-	&-11 { @include push(12); }
-	&-12 { @include push(12); }
-	}
+  
 }
 
 .row {
