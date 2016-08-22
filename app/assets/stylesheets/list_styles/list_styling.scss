@@ -13,10 +13,17 @@ ol, li {
 	padding-left: 5vw !important;
 	list-style-type: upper-roman !important;
 	margin-bottom: .50em;
+	font-weight: 400;
 }
 
 .list-books h4 {
 	padding-left: 1vw;
 	text-align: center;
+	color: #00b359;
+	margin-bottom: 1vh;
+	padding-top: 1vh;
+	&:hover {
+		color: #336699;
+	}
 
 }
