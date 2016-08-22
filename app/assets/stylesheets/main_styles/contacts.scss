@@ -4,3 +4,21 @@
 	background: image-url("galaxy10.jpg") center center no-repeat;
 	background-size: 100% 100%;
 }
+
+.email-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-align: center;
+	height: 100vh;
+
+	h4 {
+		color: #000;
+		font-weight: 500;
+	}
+}
+
+.contact-color {
+	color: #fff;
+}

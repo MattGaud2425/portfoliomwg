@@ -147,14 +147,12 @@ $susy: (
 .row {
 	clear: both;
 	@include span(12);
-
 }
 
 .row-flex {
 	clear: both;
 	@include span(12);
 	display: flex;
-	
 }
 
 
