@@ -1,3 +1,22 @@
-ol li {
-	list-style-type: ideograph-numeric;
+.list-books {
+	background: rgba(0,0,0, .1) ;
+}
+
+ol, li {
+	color: rgba(#000, .8);
+	&:hover {
+		color: #000;
+	}
+}
+
+.list-books ol li {
+	padding-left: 5vw !important;
+	list-style-type: upper-roman !important;
+	margin-bottom: .50em;
+}
+
+.list-books h4 {
+	padding-left: 1vw;
+	text-align: center;
+
 }
