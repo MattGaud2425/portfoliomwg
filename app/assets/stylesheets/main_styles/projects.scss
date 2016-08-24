@@ -67,17 +67,18 @@
 	align-content: stretch;
 }
 
-.projects-button  {
+.projects-button,
+.contact-button  {
 	border: 2px solid white;
 }
 
-.projects-button a {
+.projects-button a,
+.contact-button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background: rgba(#fff, .4);
 	color: rgba(#000, .8);
-
 	&:hover {
 		background: rgba(#fff, .6);
 		color: rgba(#000, 1);
@@ -88,10 +89,9 @@
 	}
 }
 
-.projects .row-flex {
+.projects .row-flex-2 {
 	height: 80vh;
-	margin-top: 10vh;
-	margin-bottom: 10vh;
+
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -114,6 +114,11 @@
 	&:hover {
 		background: rgba(#fff, .6);
 	}
+}
+
+.projects .row-1,
+.projects .row-3 {
+	height: 10vh;
 }
 
 .website-box {
