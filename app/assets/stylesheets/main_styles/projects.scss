@@ -5,16 +5,16 @@
 	background-size: 850px;
 }
 
-.projects-rails {
-	background: image-url("pattern1.png") 0 0 repeat;
-	background-size: 200px;
+// .projects-rails {
+// 	background: image-url("pattern1.png") 0 0 repeat;
+// 	background-size: 200px;
 
-}
+// }
 
-.projects-php {
-	background: image-url("pattern2.png") 0 0 repeat;
-	background-size: 200px;
-}
+// .projects-php {
+// 	background: image-url("pattern2.png") 0 0 repeat;
+// 	background-size: 200px;
+// }
 
 .hero-1 {
 }
@@ -87,3 +87,39 @@
 		text-decoration: none;
 	}
 }
+
+.projects .row-flex {
+	height: 80vh;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+.projects .box-1,
+.projects .box-2 {
+	border: 2px solid rgba(#fff, .8);
+	border-radius: 5px;
+	background: rgba(#fff, .4);
+	height: 40vh;
+	width: 30vw;
+	cursor: zoom-in;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&:hover {
+		background: rgba(#fff, .6);
+	}
+}
+
+.website-box {
+	height: 90%;
+	width: 90%;
+	border-radius: 3px;
+}
+
+

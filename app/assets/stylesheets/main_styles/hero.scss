@@ -48,11 +48,12 @@
 
 .image-back {
 	padding: 25px;
-	height: 25vh;
-	width: 25vw;
-	background-color: rgba(#000, .25);
+	height: 35vh;
+	width: 18vw;
+	background-color: rgba(#000, .2);
+	cursor: zoom-in;
 	&:hover {
-		background-color: rgba(#000, .5);
+		background-color: rgba(#000, .4);
 	}
 }
 
@@ -70,9 +71,9 @@ a {
 
 
 p.list-box {
-	
 	padding: 25px;	
 	color: rgba(#000, 0);
+	background-color: rgba(#000, .15);
 	&:hover {
 		background-color: rgba(#fff, .25);
 	}

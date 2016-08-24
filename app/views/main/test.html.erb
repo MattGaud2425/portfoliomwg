@@ -8,7 +8,7 @@
 			<div class="skills">
 				<p>Dev: Git, Linux, RVM, Gems, Sublime</p>
 				<p>Front-End: HTML5, CSS3, Susy, Flexbox, jQuery, Responsive Design, Bootstrap and other Frameworks</p>
-				<p>Back-End: Ruby on Rails (3 years learning), PHP Wordpress</p>
+				<p>Back-End: Ruby on Rails (3 years learning) </p>
 				<p>Back-End: REST, CRUD, Heroku, PostgreSQL, AWS S3, APIs integration, Google Analytics</p>
 				<p>Libaries: Devise, Cancan, Administrate, Paperclip, </p>
 			</div>
@@ -16,7 +16,7 @@
 	</div>
 	<div class="row-flex hero-2">
 		<div class="col-3">
-		<%= image_tag("matt1.jpg", height: "50%", width: "50%") %>
+		<%= image_tag("matt1.jpg", :class => "image-back") %>
 		</div>
 		<div class="col-6 details">
 				<h2>Matthew Gaudio</h2>
@@ -44,8 +44,15 @@
 </div>
 
 <div class="container-full projects" id="projects">
-	<button class="back-btn"></button>
-	
+	<div class="row-flex">
+		<div class="box-1">
+		<%= image_tag("galaxy11.jpg", :class => "website-box") %>
+			
+		</div>
+		<div class="box-2">
+			<%= image_tag("galaxy4.jpg", :class => "website-box") %>
+		</div>
+	</div>
 </div>
 
 <div class="container-full contacts">
