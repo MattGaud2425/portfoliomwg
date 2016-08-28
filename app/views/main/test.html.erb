@@ -1,3 +1,10 @@
+<script>
+  $(function() {
+      $.scrollify({
+          section : "#contact",
+      });
+  });
+</script>
 
 <div class="container-full hero">
 	<div class="row hero-1">
@@ -47,11 +54,11 @@
 	<div class="row-1"></div>
 	<div class="row-flex-2">
 		<div class="box-1">
-		<%= image_tag("mythicgaming.png", :class => "website-box") %>
+		<%= link_to image_tag("mythicgaming.png", :class => "website-box"), "http://mythicgaming.herokuapp.com/", target: "_blank" %>
 			
 		</div>
 		<div class="box-2">
-			<%= image_tag("sterlingheritage.png", :class => "website-box") %>
+			<%= link_to image_tag("sterlingheritage.png", :class => "website-box"), "https://www.sterlingheritage.net/", target: "_blank" %>
 		</div>
 	</div>
 	<div class="row-3">

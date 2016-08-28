@@ -99,14 +99,14 @@
 	align-content: space-around;
 }
 
-.projects .box-1,
-.projects .box-2 {
+.projects .box-1 a,
+.projects .box-2 a {
 	border: 2px solid rgba(#fff, .8);
 	border-radius: 5px;
 	background: rgba(#fff, .4);
 	height: 40vh;
 	width: 30vw;
-	cursor: zoom-in;
+	cursor: pointer;
 	display: flex;
 	justify-content: center;
 	align-items: center;
