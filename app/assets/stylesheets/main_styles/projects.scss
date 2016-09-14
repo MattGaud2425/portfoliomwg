@@ -89,8 +89,7 @@
 }
 
 .projects .row-flex-2 {
-	height: 80vh;
-
+	height: 90vh;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -104,7 +103,7 @@
 	border: 2px solid rgba(#fff, .8);
 	border-radius: 5px;
 	background: rgba(#fff, .4);
-	height: 40vh;
+	height: 35vh;
 	width: 30vw;
 	cursor: pointer;
 	display: flex;
@@ -115,10 +114,10 @@
 	}
 }
 
-.projects .row-1,
-.projects .row-3 {
-	height: 10vh;
-}
+// .projects .row-1,
+// .projects .row-3 {
+// 	height: 10vh;
+// }
 
 .website-box {
 	height: 90%;
