@@ -1,6 +1,6 @@
 .hero {
-	min-height: 100vh;
-	min-width: 100vw;
+	height: 100vh;
+	width: 100vw;
 	background: image-url("sky2") center center no-repeat;
 	background-size: 100% 100%;
 }
@@ -10,17 +10,17 @@
 }
 
 .hero-1 {
-	min-height: 20vh;
+	height: 20vh;
 
 }
 
 .hero-2 {
-	min-height: 55vh;
+	height: 55vh;
 
 }
 
 .hero-3 {
-	min-height: 20vh;
+	height: 20vh;
 }
 
 .web-dev {
@@ -71,7 +71,7 @@ a {
 
 
 p.list-box {
-	padding: 25px;	
+	padding: 25px;
 	color: rgba(#000, 0);
 	&:hover {
 		background-color: rgba(#fff, .25);
