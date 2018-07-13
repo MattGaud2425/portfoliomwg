@@ -102,10 +102,9 @@ p.list-box {
 		margin: 5px;
 		color: rgba(#d9d9d9, .75);
 		background-color: #rgba(#000, 1);
-		// &:hover {
-		// color: rgba(#000, .8);
-		// background-color: #rgba(#fff, 1);
-		// }
+		&:hover {
+		color:  #fff;
+		}
 	}
 }
 
