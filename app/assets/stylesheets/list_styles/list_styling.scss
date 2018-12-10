@@ -28,5 +28,19 @@ ol, li {
 }
 
 .list-links {
+	background: rgba(0,0,0, .1) ;
 	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5vh 0vh;
+}
+
+.list-links a {
+	padding: 25px;
+	text-decoration: none;
+	&.active {
+		font-weight: bold;
+		text-decoration: underline;
+	}
 }
