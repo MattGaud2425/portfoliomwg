@@ -2,9 +2,7 @@ Rails.application.routes.draw do
 
   get 'list' => "static_files#list"
 
-  root "main#test"
-
-  get "home" => "main#home"
+  root "main#home"
 
 
 
