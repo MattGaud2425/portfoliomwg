@@ -1,39 +1,98 @@
+<script>
+  $(function() {
+      $.scrollify({
+          section : "#contact",
+      });
+  });
+</script>
 
-<div class="grid hero">
 
-	<div class="col-12 grid-hero grid-middle">
-	<div class="grid hero-1">
-		<div class="col-9">
-			Dev: Git, Linux, RVM, Gems, Sublime <br>
-			Front-End: HTML5, CSS3, Susy, Flexbox, jQuery, Responsive Design, Bootstrap and other Frameworks. <br>
-			Back-End: Ruby on Rails (3 years learning), REST, CRUD, Heroku, PostgreSQL <br>
-			Libaries: Devise, Cancan, Administrate, Paperclip, AWS S3, APIs integration, Google Analytics <br>
+<div class="container-full hero">
+	<div class="row hero-1">
+		<div class="col-1 off-1">
+			<button class="skills-btn"><i class="fa fa-plus fa-1x plus-icon" aria-hidden="true"></i></button>
+		</div>
+		<div class="col-10">
+			<div class="skills">
+				<!-- <p>Dev: Git, Linux, Text Editor, Deploy</p> -->
+				<p>Front-End: HTML5, CSS3, Bootstrap, Zurb Foundation, Semantic UI, Responsive Design, Webpack, React</p>
+				<p>Languages: Ruby, Javascript, Elixir</p>
+				<p>Frameworks: Ruby on Rails, React, Phoenix</p>
+        <p>Technologies: Heroku, Digital Ocean, AWS, S3</p>
+        <p>Tools: Google Analytics, New Relic</p>
+        <p>Conceptual: MVC, OOP, Asynchronous Development</p>
+        <p>Workflow: Git, Github, SVN, Atom|Sublime Text, Terminal(Linux), Jira</p>
+				<!-- <p>Back-End: REST, CRUD, Heroku, PostgreSQL, AWS S3, APIs integration, Google Analytics</p> -->
+			</div>
 		</div>
 	</div>
-	<div class="grid hero-1">
-		<div class="col-3" push-left="off-.5">
-			<div class="image-back">
-				<%= image_tag("matt1.jpg", height: "80%", width: "100%") %>
-			</div>
-			</div>
-			<div class="col-4 web-dev" push-left="off-1">
+	<div class="row-flex hero-2">
+		<div class="col-3">
+		<%= image_tag("matt1.jpg", :class => "image-back") %>
+		</div>
+		<div class="col-6 details">
 				<h2>Matthew Gaudio</h2>
 				<h4>Web Developer</h4>
-				<h4>Washington D.C.</h4>
-			</div>
-			<div class="col-3" push-left="off-1">
-				<p class="list-box"><a href="#">List of Resources</a><br/> I used and recommend to learn web development.</p>
+				<h4>Washington, D.C.</h4>
+		</div>
+		<div class="col-3">
+				<p class="list-box"><%= link_to "List of Resources", list_path, target: "_blank" %><br/> </p>
 		</div>
 	</div>
-	<div class="grid hero-3">
-			<div class="col-4-bottom">
-				Github, Linkedin, Resume
-			</div>
-			<div class="col-4-bottom-center">
-				View Projects
+	<div class="row-flex hero-3">
+		<div class="col-4 ">
+		<ul class="font-icons">
+			<li><a href="https://s3.amazonaws.com/portfoliomwg/MatthewGaudioResume2018+(5).pdf" target="_blank"><i class="fa fa-file-text fa-3x" aria-hidden="true"></i></a></li>
+			<li><a href="https://github.com/mattgaudio" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/mattgaudio582919111/" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
+		</ul>
+		</div>
+		<div class="col-2 off-1">
+			<div class="projects-button">
+				<a href="#projects">Projects <i class="fa fa-angle-double-down fa-2x" aria-hidden="true"></i></a>
 			</div>
 		</div>
 	</div>
+</div>
 
+<div class="container-full projects" id="projects">
+	<div class="row-1"></div>
+	<div class="row-flex-2">
+		<div class="box-1">
+      <%= link_to image_tag("sterlingheritage.png", :class => "website-box"), "https://boiling-river-7901.herokuapp.com/", target: "_blank" %>
+
+		</div>
+		<div class="box-2">
+      <%= link_to image_tag("mythicgaming1.png", :class => "website-box"), "https://mythicgaming.net/", target: "_blank" %>
+
+		</div>
+		<div class="box-2">
+      <%= link_to image_tag("mythicgaming.png", :class => "website-box"), "http://mythicgaming.herokuapp.com/", target: "_blank" %>
+
+		</div>
+		<div class="box-2">
+      <a href=""></a>
+		</div>
+		<div class="box-2">
+      <a href=""></a>
+		</div>
+		<div class="box-2">
+      <a href=""></a>
+		</div>
+
+	</div>
+	<div class="row-3">
+		<div class="contact-button col-2 off-5">
+			<a href="#contact">Contact <i class="fa fa-angle-double-down fa-2x" aria-hidden="true"></i></a>
+		</div>
+	</div>
+</div>
+
+<div class="container-full contacts" id="contact">
+	<div class="row-flex email-btn">
+		<div>
+			<h4 class="email-button"><strong class="contact-color">Contact:</strong> mattgaud2425@gmail.com</h4>
+		</div>
+	</div>
 
 </div>
