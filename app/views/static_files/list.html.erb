@@ -5,8 +5,20 @@
   <a href="">Node.js | Hapi.js </a>
 </div>
 
+<script type="text/javascript">
+  $(document).ready(function() {
+    console.log("hello");
+    $(".list-links a").click(function() {
+      $("a").removeClass("active");
+      $(this).addClass("active");
 
-<div class="list-books">
+      return false;
+    });
+  });
+</script>
+
+
+<div class="list-books list-books-rails">
 
 <ol>
 <h4>1. CSS & HTML</h4>
