@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
 
+  get 'pages/trident'
+
+  get 'pages/magnifico'
+
+  get 'pages/frontier'
+
+  get 'pages/veritus'
+
   get 'list' => "static_files#list"
 
   root "main#home"
