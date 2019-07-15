@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'lists/dev'
+
+  get 'lists/inspiration'
+
+  get 'lists/fam'
+
   get 'partials/nav'
 
   get 'pages/trident'
