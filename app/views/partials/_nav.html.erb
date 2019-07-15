@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <%= link_to "Trident", pages_trident_path, class: "nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "Magnifico", pages_magnifico_path, class: "nav-link" %>
+
+      </li>
+      <li class="nav-item">
+        <%= link_to "Frontier", pages_frontier_path, class: "nav-link" %>
+
+      </li>
+      <li class="nav-item">
+        <%= link_to "Veritus", pages_veritus_path, class: "nav-link" %>
+
+      </li>
+    </ul>
+    <span class="navbar-text">
+      More
+    </span>
+  </div>
+</nav>

@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'partials/nav'
+
   get 'pages/trident'
 
   get 'pages/magnifico'

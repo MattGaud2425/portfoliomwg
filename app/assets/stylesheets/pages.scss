@@ -1,3 +1,29 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "./partials";
+// Across the great plains
+
+.hero {
+  height: 92vh;
+  min-width: 100%;
+}
+
+// Trident
+.trident-hero {
+  background-image: image-url("trident7.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+// Magnifico
+
+// Frontier
+.frontier-hero {
+  background-image: image-url("frontier1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+// Veritus
