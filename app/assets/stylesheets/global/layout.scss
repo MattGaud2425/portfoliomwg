@@ -1,9 +1,9 @@
 body {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-// Susy defaults 
+// Susy defaults
 
 // $susy: (
 //   flow: ltr,
@@ -32,11 +32,13 @@ body {
 //   )
 // );
 
+@import "susy";
 
-@import 'susy';
-
-*, *:before, *:after {
-	box-sizing: border-box;
+*,
+html,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
 $susy: (
@@ -53,110 +55,198 @@ $susy: (
   last-flow: to,
   debug: (
     image: hide,
-    color: rgba(#66f, .25),
+    color: rgba(#66f, 0.25),
     output: background,
-    toggle: top right,
+    toggle: top right
   ),
   use-custom: (
     background-image: true,
     background-options: false,
     box-sizing: true,
     clearfix: false,
-    rem: true,
+    rem: true
   )
 );
 
 @include border-box-sizing;
 
-.container { 
-	@include container;
+.container {
+  @include container;
   margin-right: 2vw;
   margin-left: 2vw;
 }
 
-.container-full { 
+.container-full {
   @include container;
 }
 
 .col {
-	&-1 { @include span(1); }
-	&-2 { @include span(2); }
-	&-3 { @include span(3); }
-	&-4 { @include span(4); }
-	&-5 { @include span(5); }
-	&-6 { @include span(6); }
-	&-7 { @include span(7); }
-	&-8 { @include span(8); }
-	&-9 { @include span(9); }
-	&-10 { @include span(10); }
-	&-11 { @include span(11); }
-	&-12 { @include span(12); }
+  &-1 {
+    @include span(1);
+  }
+  &-2 {
+    @include span(2);
+  }
+  &-3 {
+    @include span(3);
+  }
+  &-4 {
+    @include span(4);
+  }
+  &-5 {
+    @include span(5);
+  }
+  &-6 {
+    @include span(6);
+  }
+  &-7 {
+    @include span(7);
+  }
+  &-8 {
+    @include span(8);
+  }
+  &-9 {
+    @include span(9);
+  }
+  &-10 {
+    @include span(10);
+  }
+  &-11 {
+    @include span(11);
+  }
+  &-12 {
+    @include span(12);
+  }
 }
 
 .off {
-	&-1 { @include push(1); }
-	&-2 { @include push(2); }
-	&-3 { @include push(3); }
-	&-4 { @include push(4); }
-	&-5 { @include push(5); }
-	&-6 { @include push(6); }
-	&-7 { @include push(7); }
-	&-8 { @include push(8); }
-	&-9 { @include push(9); }
-	&-10 { @include push(10); }
-	&-11 { @include push(11); }
-	&-12 { @include push(12); }
+  &-1 {
+    @include push(1);
+  }
+  &-2 {
+    @include push(2);
+  }
+  &-3 {
+    @include push(3);
+  }
+  &-4 {
+    @include push(4);
+  }
+  &-5 {
+    @include push(5);
+  }
+  &-6 {
+    @include push(6);
+  }
+  &-7 {
+    @include push(7);
+  }
+  &-8 {
+    @include push(8);
+  }
+  &-9 {
+    @include push(9);
+  }
+  &-10 {
+    @include push(10);
+  }
+  &-11 {
+    @include push(11);
+  }
+  &-12 {
+    @include push(12);
+  }
 }
 
 @media screen and (max-width: 768px) {
   .col {
-  &-1 { @include span(2); }
-  &-2 { @include span(4); }
-  &-3 { @include span(6); }
-  &-4 { @include span(8); }
-  &-5 { @include span(10); }
-  &-6 { @include span(12); }
-  &-7 { @include span(12); }
-  &-8 { @include span(12); }
-  &-9 { @include span(12); }
-  &-10 { @include span(12); }
-  &-11 { @include span(12); }
-  &-12 { @include span(12); }
+    &-1 {
+      @include span(2);
+    }
+    &-2 {
+      @include span(4);
+    }
+    &-3 {
+      @include span(6);
+    }
+    &-4 {
+      @include span(8);
+    }
+    &-5 {
+      @include span(10);
+    }
+    &-6 {
+      @include span(12);
+    }
+    &-7 {
+      @include span(12);
+    }
+    &-8 {
+      @include span(12);
+    }
+    &-9 {
+      @include span(12);
+    }
+    &-10 {
+      @include span(12);
+    }
+    &-11 {
+      @include span(12);
+    }
+    &-12 {
+      @include span(12);
+    }
   }
-
 }
 
 @media screen and (max-width: 560px) {
   .col {
-  &-1 { @include span(12); }
-  &-2 { @include span(12); }
-  &-3 { @include span(12); }
-  &-4 { @include span(12); }
-  &-5 { @include span(12); }
-  &-6 { @include span(12); }
-  &-7 { @include span(12); }
-  &-8 { @include span(12); }
-  &-9 { @include span(12); }
-  &-10 { @include span(12); }
-  &-11 { @include span(12); }
-  &-12 { @include span(12); }
+    &-1 {
+      @include span(12);
+    }
+    &-2 {
+      @include span(12);
+    }
+    &-3 {
+      @include span(12);
+    }
+    &-4 {
+      @include span(12);
+    }
+    &-5 {
+      @include span(12);
+    }
+    &-6 {
+      @include span(12);
+    }
+    &-7 {
+      @include span(12);
+    }
+    &-8 {
+      @include span(12);
+    }
+    &-9 {
+      @include span(12);
+    }
+    &-10 {
+      @include span(12);
+    }
+    &-11 {
+      @include span(12);
+    }
+    &-12 {
+      @include span(12);
+    }
   }
-  
 }
 
 .row {
-	clear: both;
-	@include span(12);
+  clear: both;
+  @include span(12);
 }
 
 .row-flex {
-	clear: both;
-	@include span(12);
-	display: flex;
+  clear: both;
+  @include span(12);
+  display: flex;
 }
-
-
-
-
-
-

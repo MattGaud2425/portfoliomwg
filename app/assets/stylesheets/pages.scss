@@ -8,6 +8,33 @@
 .hero {
   height: 92vh;
   min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .row {
+    width: 80%;
+    border-radius: 15px;
+    margin-bottom: 2.5vh;
+    &:first {
+      margin-top: 2.5vh;
+    }
+  }
+}
+
+.header-row {
+  background-color: rgba(#fff, 0.35);
+  height: 20vh;
+}
+
+.body-row {
+  background-color: rgba(#fff, 0.35);
+  height: 40vh;
+}
+
+.base-row {
+  background-color: rgba(#fff, 0.35);
+  height: 10vh;
 }
 
 // Trident
@@ -19,6 +46,12 @@
 
 // Magnifico
 
+.magnifico-hero {
+  background-image: image-url("magnifico1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
 // Frontier
 .frontier-hero {
   background-image: image-url("frontier1.jpg");
@@ -27,3 +60,9 @@
 }
 
 // Veritus
+
+.veritus-hero {
+  background-image: image-url("veritus1.jpeg");
+  background-position: center center;
+  background-size: cover;
+}
