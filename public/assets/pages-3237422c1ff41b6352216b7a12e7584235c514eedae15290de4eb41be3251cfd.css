@@ -1,0 +1,77 @@
+/* line 7, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/partials.scss */
+.navbar {
+  height: 8vh !important;
+}
+
+/* line 8, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/pages.scss */
+.hero {
+  height: 92vh;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* line 15, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/pages.scss */
+.hero .row {
+  width: 80%;
+  border-radius: 15px;
+  margin-bottom: 2.5vh;
+}
+/* line 19, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/pages.scss */
+.hero .row:first {
+  margin-top: 2.5vh;
+}
+
+/* line 25, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/pages.scss */
+.header-row {
+  height: 20vh;
+}
+
+/* line 29, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/pages.scss */
+.body-row {
+  height: 40vh;
+}
+
+/* line 33, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/pages.scss */
+.base-row {
+  height: 10vh;
+}
+
+/* line 36, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/pages.scss */
+.light {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+/* line 40, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/pages.scss */
+.dark {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+/* line 44, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/pages.scss */
+.trident-hero {
+  background-image: url(/assets/trident7-89dd321fefbb1ea0ba04f2e709fb8e0eeaa41d4ccf05abc6d928d588630da3d4.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 52, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/pages.scss */
+.magnifico-hero {
+  background-image: url(/assets/magnifico2-c38d98d294e07a6bf7c96221ee7937300569b05ae4fe46bf7bd4dc98b7faea52.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 59, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/pages.scss */
+.frontier-hero {
+  background-image: url(/assets/frontier1-77ec4bfea10fd089104f6c408260e088c9b4a1a36dc1dc31b86843ad9328cf77.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 67, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/pages.scss */
+.veritus-hero {
+  background-image: url(/assets/veritus3-babe6782ea1de9e2bf1ddb17b0995c3401c166da7c4915574aadc92ffd7e71e3.jpg);
+  background-position: center center;
+  background-size: cover;
+}

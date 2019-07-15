@@ -1,0 +1,23 @@
+@import url(main_styles/manifest.css);
+/* line 7, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/main.scss */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  /* line 17, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/main.scss */
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+/* line 24, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/main.scss */
+h5 {
+  color: #fff;
+  text-align: center;
+  margin: 1vh 0;
+}
