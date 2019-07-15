@@ -1,85 +1,85 @@
 .hero {
-	height: 100vh;
-	width: 100vw;
-	background: image-url("sky2") center center no-repeat;
-	background-size: 100% 100%;
+  height: 100vh;
+  width: 100vw;
+  background: image-url("sky2") center center no-repeat;
+  background-size: 100% 100%;
 }
 
 .hero {
-	color: #fff;
+  color: #fff;
 }
 
 .hero-1 {
-	height: 20vh;
-
+  height: 20vh;
 }
 
 .hero-2 {
-	height: 55vh;
-
+  height: 55vh;
 }
 
 .hero-3 {
-	height: 20vh;
+  height: 20vh;
 }
 
 .web-dev {
-	text-align: center;
-	line-height: 4em;
-	letter-spacing: .1em;
+  text-align: center;
+  line-height: 2em;
+  letter-spacing: 0.1em;
 }
 
 .hero p {
-	color: #d9d9d9;
-	&:hover {
-		color: #fff;
-	}
+  color: #d9d9d9;
+  &:hover {
+    color: #fff;
+  }
 }
 
 .hero {
-	h1, h2, h3,
-	h4, h5, h6 {
-		color: #d9d9d9;
-		&:hover {
-			color: #fff;
-		}
-	}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #d9d9d9;
+    &:hover {
+      color: #fff;
+    }
+  }
 }
 
 .image-back {
-	padding: 25px;
-	height: 35vh;
-	width: 18vw;
-	background-color: rgba(#000, .2);
-	cursor: zoom-in;
-	&:hover {
-		background-color: rgba(#000, .4);
-	}
+  padding: 25px;
+  height: 35vh;
+  width: 18vw;
+  background-color: rgba(#000, 0.2);
+  cursor: zoom-in;
+  &:hover {
+    background-color: rgba(#000, 0.4);
+  }
 }
 
 a {
-	color: #003366;
-	text-decoration: none;
-	&:hover {
-		color:  #6600ff;
-	}
-	&:active {
-		text-decoration: underline;
-	}
+  color: #003366;
+  text-decoration: none;
+  &:hover {
+    color: #6600ff;
+  }
+  &:active {
+    text-decoration: underline;
+  }
 }
 
-
-
 p.list-box {
-	padding: 25px;
-	color: rgba(#000, 0);
-	&:hover {
-		background-color: rgba(#fff, .25);
-	}
-	a {
-		padding-right:  10px;
-		text-align: left;
-	}
+  padding: 25px;
+  color: rgba(#000, 0);
+  &:hover {
+    background-color: rgba(#fff, 0.25);
+  }
+  a {
+    padding-right: 10px;
+    text-align: left;
+  }
 }
 
 // .hero-bottom {
@@ -89,44 +89,38 @@ p.list-box {
 // }
 
 .plus-icon {
-	font-weight: 200;
-	font-weight: 100;
+  font-weight: 200;
+  font-weight: 100;
 }
 .font-icons {
-	li {
-		display: inline-block;
-
-	}
-	a {
-		padding: 20px;
-		margin: 5px;
-		color: rgba(#d9d9d9, .75);
-		background-color: #rgba(#000, 1);
-		&:hover {
-		color:  #fff;
-		}
-	}
+  li {
+    display: inline-block;
+  }
+  a {
+    padding: 20px;
+    margin: 5px;
+    color: rgba(#d9d9d9, 0.75);
+    background-color: #rgba(#000, 1);
+    &:hover {
+      color: #fff;
+    }
+  }
 }
-
-
 
 @media screen and (max-width: 1244px) {
-	.hero {
-		background-size: cover;
-	}
+  .hero {
+    background-size: cover;
+  }
 }
 
-
 @media screen and (max-width: 768px) {
+  .hero {
+    background-size: cover;
+  }
 
-	.hero {
-		background-size: cover;
-	}
-
-	.web-dev {
-		text-align: center;
-		line-height: 2em;
-		letter-spacing: 0em;
-	}
-
+  .web-dev {
+    text-align: center;
+    line-height: 0.5em;
+    letter-spacing: 0em;
+  }
 }
