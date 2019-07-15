@@ -1,0 +1,56 @@
+/* line 5, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/lists.scss */
+.list-books {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* line 9, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/lists.scss */
+ol,
+li {
+  color: rgba(0, 0, 0, 0.8);
+}
+/* line 12, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/lists.scss */
+ol:hover,
+li:hover {
+  color: #000;
+}
+
+/* line 17, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/lists.scss */
+.list-books ol li {
+  padding-left: 5vw !important;
+  list-style-type: upper-roman !important;
+  margin-bottom: 0.5em;
+}
+
+/* line 23, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/lists.scss */
+.list-books h4 {
+  padding-left: 1vw;
+  text-align: center;
+  color: #00b359;
+  margin-bottom: 1vh;
+  padding-top: 1vh;
+}
+/* line 29, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/lists.scss */
+.list-books h4:hover {
+  color: #339966;
+}
+
+/* line 34, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/lists.scss */
+.list-links {
+  background: rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 0vh;
+}
+
+/* line 43, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/lists.scss */
+.list-links a {
+  padding: 25px;
+  text-decoration: none;
+}
+/* line 46, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/lists.scss */
+.list-links a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
