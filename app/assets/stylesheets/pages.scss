@@ -23,20 +23,23 @@
 }
 
 .header-row {
-  background-color: rgba(#fff, 0.35);
   height: 20vh;
 }
 
 .body-row {
-  background-color: rgba(#fff, 0.35);
   height: 40vh;
 }
 
 .base-row {
-  background-color: rgba(#fff, 0.35);
   height: 10vh;
 }
+.light {
+  background-color: rgba(#fff, 0.35);
+}
 
+.dark {
+  background-color: rgba(#000, 0.35);
+}
 // Trident
 .trident-hero {
   background-image: image-url("trident7.jpg");
@@ -47,7 +50,7 @@
 // Magnifico
 
 .magnifico-hero {
-  background-image: image-url("magnifico1.jpg");
+  background-image: image-url("magnifico2.jpg");
   background-position: center center;
   background-size: cover;
 }
