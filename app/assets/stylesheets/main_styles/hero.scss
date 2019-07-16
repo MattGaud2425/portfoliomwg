@@ -27,14 +27,14 @@
   letter-spacing: 0.1em;
 }
 
-.hero p {
+#hero p {
   color: #d9d9d9;
   &:hover {
     color: #fff;
   }
 }
 
-.hero {
+#hero {
   h1,
   h2,
   h3,
@@ -79,6 +79,11 @@ p.list-box {
   a {
     padding-right: 10px;
     text-align: left;
+    color: #2952a3;
+    &:hover {
+      color: #000;
+      text-decoration: none;
+    }
   }
 }
 
