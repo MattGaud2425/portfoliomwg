@@ -35,16 +35,24 @@
   }
 }
 
+.blog-content {
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+}
+
+.blog-content .col-8,
+.blog-content .col-4 {
+  display: flex;
+  flex-direction: column;
+  color: #d2d2d2;
+}
+
 .blog-title {
 }
 
 .blog-nav {
   min-height: 20vh;
-  width: 100%;
-}
-
-.blog-content {
-  min-height: 50vh;
   width: 100%;
 }
 

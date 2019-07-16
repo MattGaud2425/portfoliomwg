@@ -1,8 +1,9 @@
 class MainController < ApplicationController
   def home
+    @blog = Blog.all
   end
 
-  def test 
+  def test
   end
-  
+
 end

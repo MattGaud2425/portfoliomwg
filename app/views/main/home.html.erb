@@ -172,15 +172,23 @@
     </ul>
   </div>
   <div class="row blog-content">
-    <div class="col-8">
-      <% Blog.each do |x| %>
-        <%= x.blog_title %>
-        <%= x.blog_tags %>
-        <%= x.blog_body %>
+    <div class="col-4 offset-lg-2">
+      <% @blog.each do |x| %>
+        <div>
+          <h4><%= x.blog_title %></h4>
+          <p><%= x.blog_tags %></p>
+          <p><%= x.blog_body %></p>
+        </div>
       <% end %>
 
     </div>
-    <div class="col-4"></div>
+    <div class="col-4">
+      <% @blog.each do |x| %>
+        <h4><%= x.blog_title %></h4>
+        <p><%= x.blog_tags %></p>
+        <p><%= x.blog_body %></p>
+      <% end %>
+    </div>
   </div>
   <div class="row blog-footer">
     <h6>Blog Footer</h6>
