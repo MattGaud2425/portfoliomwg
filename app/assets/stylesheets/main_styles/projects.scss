@@ -1,6 +1,6 @@
 .projects {
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  width: 100%;
   background: image-url("pattern2.png") 0 0 repeat;
   background-size: 350px;
 }
@@ -45,12 +45,16 @@
 // 	display: block;
 // }
 
-.row-flex.hero-2 {
-  flex-direction: row;
-  flex-wrap: wrap;
+#projects .row {
+  width: 100%;
+}
+
+#projects .row .col-4 {
+  width: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  align-content: stretch;
+  flex-direction: column;
 }
 
 .hero-2 {
@@ -60,14 +64,6 @@
 .hero-2 .details {
   line-height: 3.5em;
   letter-spacing: 0.4em;
-}
-
-.row-flex.hero-3 {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-end;
-  align-content: stretch;
 }
 
 .projects-button {
@@ -91,29 +87,18 @@
   }
 }
 
-.projects .row-flex-2 {
-  height: 90vh;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: space-around;
-}
-
-.projects .box-1 a,
-.projects .box-2 a {
-  border: 2px solid rgba(#fff, 0.8);
+.projects .col-4 a {
+  border: 2px solid rgba(#000, 0.8);
   border-radius: 5px;
-  background: rgba(#fff, 0.4);
-  height: 35vh;
-  width: 30vw;
+  background: rgba(#000, 0.4);
+  height: 20rem;
+  width: 30rem;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   &:hover {
-    background: rgba(#fff, 0.6);
+    background: rgba(#000, 0.6);
   }
 }
 

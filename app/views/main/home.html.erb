@@ -18,17 +18,17 @@
       				<p><b>Frameworks:</b> Ruby on Rails, React, Phoenix, Rocket</p>
               <p><b>Technologies:</b> Heroku, Digital Ocean, AWS, S3, Nanobox</p>
             </div>
-            <div class="col-5">
+            <div class="col-4">
               <p><b>Databases:</b> PostgreSQL, MySQL, SQLite3</p>
               <p><b>Tools:</b> Google Analytics, New Relic, Chrome Dev Tools, Skylight</p>
               <p><b>Conceptual:</b> MVC, OOP, Asynchronous Development, TDD, Agile</p>
               <p><b>Workflow:</b> Git, Github, SVN, Atom | Sublime Text, Terminal(Linux), Jira</p>
             </div>
-            <div class="col-2">
-              <h6><b>Mangement:</b> Zendesk, Hubstaff, Asana, Slack</h6>
-              <h6><b>Leadership:</b> Gust, Angel List</h6>
-              <h6><b>Positions:</b> Zeus: Director,  Mythico inc.: Creator, CEO; Lead Developer: Dios; Project Lead: Dios;
-              Project Lead: Voodoo Vince; Creative Lead: Prey;</h6>
+            <div class="col-3">
+              <p><b>Mangement:</b> Zendesk, Hubstaff, Asana, Slack</p>
+              <p><b>Leadership:</b> Gust, Angel List</p>
+              <p><b>Positions:</b> Zeus: Director,  Mythico inc.: Creator, CEO; Lead Developer: Dios; Project Lead: Dios;
+              Project Lead: Voodoo Vince; Creative Lead: Prey;</p>
             </div>
           </div>
 			</div>
@@ -77,34 +77,33 @@
 
 <div class="page-divider"></div>
 
-<div class="container-full projects" id="projects">
-	<div class="row-1"></div>
-	<div class="row-flex-2">
-		<div class="box-1">
+<div class="container-fluid projects" id="projects">
+	<div class="row">
+		<div class="col-4">
       <h5>Mythico Trident (preview)</h5>
       <%= link_to image_tag("trident.png", :class => "website-box"), pages_trident_path, target: "_blank" %>
 
 		</div>
-		<div class="box-2">
+		<div class="col-4">
       <h5>Magnifico (preview)</h5>
       <%= link_to image_tag("magnifico.png", :class => "website-box"), pages_magnifico_path, target: "_blank" %>
 
 		</div>
-		<div class="box-2">
+		<div class="col-4">
       <h5>Mythico Frontier (preview)</h5>
       <%= link_to image_tag("frontier.png", :class => "website-box"), pages_frontier_path, target: "_blank" %>
 
 		</div>
-		<div class="box-2">
+		<div class="col-4">
       <h5>Mythico Veritus (preview)</h5>
       <%= link_to image_tag("veritus.png", :class => "website-box"), pages_veritus_path, target: "_blank" %>
 
 		</div>
-		<div class="box-2">
+		<div class="col-4">
       <h5>Mythico Entertainment (early version)</h5>
       <%= link_to image_tag("mythico.png", :class => "website-box"), "http://mythicgaming.herokuapp.com/", target: "_blank" %>
 		</div>
-		<div class="box-2">
+		<div class="col-4">
       <h5>Sterling Heritage Intranet</h5>
       <%= link_to image_tag("sterlingheritage.png", :class => "website-box"), "https://boiling-river-7901.herokuapp.com/", target: "_blank" %>
 		</div>
@@ -155,6 +154,9 @@
       <div class="row">
         <div class="col-lg-12">
           <li class="nav-item">
+            <a class="nav-link" href="#"">Elixir</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#"">Italian</a>
           </li>
           <li class="nav-item">
@@ -169,6 +171,15 @@
           <li class="nav-item">
             <a class="nav-link" href="#"">Ouya</a>
           </li>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <li class="nav-item">
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
       </div>
     </ul>
@@ -209,7 +220,7 @@
 
 <div class="page-divider"></div>
 
-<div class="container-full contacts" id="contact">
+<div class="container-fluid contacts" id="contact">
 	<div class="row-flex email-btn">
 		<div>
 			<h4 class="email-button"><strong class="contact-color">Contact:</strong> mattgaud2425@gmail.com</h4>

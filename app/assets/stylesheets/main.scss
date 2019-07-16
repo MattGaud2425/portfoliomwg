@@ -33,6 +33,12 @@
     align-items: center;
     flex-direction: row;
   }
+  .nav-link {
+    color: #336699 !important;
+    &:hover {
+      color: #2952a3 !important;
+    }
+  }
 }
 
 .blog-content {
