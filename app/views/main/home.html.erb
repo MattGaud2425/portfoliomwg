@@ -12,19 +12,19 @@
 		<div class="col-lg-12">
 			<div class="skills">
           <div class="row">
-            <div class="col-5">
+            <div class="col-lg-4 col-sm-12">
               <p><b>Front-End:</b> HTML5, CSS3, Bootstrap, Furatto, Responsive Design, Webpack, Font-Awesome, Yarn, npm</p>
       				<p><b>Languages:</b> Ruby, Javascript, Elixir, Rust</p>
       				<p><b>Frameworks:</b> Ruby on Rails, React, Phoenix, Rocket</p>
               <p><b>Technologies:</b> Heroku, Digital Ocean, AWS, S3, Nanobox</p>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-sm-12">
               <p><b>Databases:</b> PostgreSQL, MySQL, SQLite3</p>
               <p><b>Tools:</b> Google Analytics, New Relic, Chrome Dev Tools, Skylight</p>
               <p><b>Conceptual:</b> MVC, OOP, Asynchronous Development, TDD, Agile</p>
               <p><b>Workflow:</b> Git, Github, SVN, Atom | Sublime Text, Terminal(Linux), Jira</p>
             </div>
-            <div class="col-3">
+            <div class="col-lg-4 col-sm-12">
               <p><b>Mangement:</b> Zendesk, Hubstaff, Asana, Slack</p>
               <p><b>Leadership:</b> Gust, Angel List</p>
               <p><b>Positions:</b> Zeus: Director,  Mythico inc.: Creator, CEO; Lead Developer: Dios; Project Lead: Dios;
@@ -144,10 +144,13 @@
             <a class="nav-link" href="#"">Veritus</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"">Ruby & Rust</a>
+            <a class="nav-link" href="#"">Ruby</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"">Javascript</a>
+            <a class="nav-link" href="#"">Rust</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"">Javascript </a>
           </li>
         </div>
       </div>
@@ -169,6 +172,9 @@
             <a class="nav-link" href="#"">Voodoo Vince series</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#"">Prey Series</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#"">Ouya</a>
           </li>
         </div>
@@ -185,7 +191,7 @@
     </ul>
   </div>
   <div class="row blog-content">
-    <div class="col-4 offset-lg-2">
+    <div class="col-4">
       <% @blog.each do |x| %>
         <div>
           <h4><%= x.blog_title %></h4>
@@ -193,7 +199,6 @@
           <p><%= x.blog_body %></p>
         </div>
       <% end %>
-
     </div>
     <div class="col-4">
       <% @blog.each do |x| %>
@@ -201,6 +206,9 @@
         <p><%= x.blog_tags %></p>
         <p><%= x.blog_body %></p>
       <% end %>
+    </div>
+    <div class="col-4">
+      Archives and Stuff
     </div>
   </div>
   <div class="row blog-footer">

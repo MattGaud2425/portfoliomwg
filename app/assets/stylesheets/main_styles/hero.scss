@@ -93,6 +93,7 @@ a {
 p.list-box {
   padding: 25px;
   color: rgba(#000, 0);
+  font-size: 16px;
   &:hover {
     background-color: rgba(#fff, 0.25);
   }
@@ -100,6 +101,7 @@ p.list-box {
     padding-right: 10px;
     text-align: left;
     color: #2952a3;
+    font-size: 16px;
     &:hover {
       color: #000;
       text-decoration: none;
