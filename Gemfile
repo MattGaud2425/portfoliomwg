@@ -40,11 +40,13 @@ gem 'susy'
 gem 'font-awesome-sass', '~> 4.5.0'
 gem 'puma', '~> 3.0'
 gem 'rails_12factor'
+gem 'clearance'
+gem 'administrate'
+gem 'pg'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'sqlite3'
 end
 
 group :development do
@@ -56,5 +58,4 @@ group :development do
 end
 
 group :production do
-	gem 'pg', '~> 0.21'
 end

@@ -34,6 +34,31 @@
     flex-direction: row;
   }
 }
+
+.blog-title {
+}
+
+.blog-nav {
+  min-height: 20vh;
+  width: 100%;
+}
+
+.blog-content {
+  min-height: 50vh;
+  width: 100%;
+}
+
+.blog-footer {
+  min-height: 10vh;
+  width: 100%;
+}
+
+.blog-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 // Images
 
 h5 {

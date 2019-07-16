@@ -1,5 +1,14 @@
 Rails.application.routes.draw do
 
+  get 'blog/blog_home'
+
+  namespace :admin do
+    resources :users
+    resources :blogs
+
+    root to: "users#index"
+  end
+
   get 'lists/dev'
 
   get 'lists/inspiration'
