@@ -71,19 +71,18 @@
 }
 
 .projects-button {
-  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
 
 .projects-button a,
 .contact-button a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(#fff, 0.4);
-  color: rgba(#000, 0.8);
+  color: rgba(#fff, 0.8);
+  margin: 0 2vw;
   &:hover {
-    background: rgba(#fff, 0.6);
-    color: rgba(#000, 1);
+    color: rgba(#fff, 1);
     cursor: pointer;
   }
   &:visited,
