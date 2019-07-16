@@ -7,14 +7,27 @@
 
 #hero {
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 .hero-1 {
   min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .hero-2 {
-  min-height: 55vh;
+  min-height: 60vh;
 }
 
 .hero-3 {
