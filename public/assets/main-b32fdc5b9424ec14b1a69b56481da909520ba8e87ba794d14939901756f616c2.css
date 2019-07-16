@@ -1,0 +1,55 @@
+@import url(main_styles/manifest.css);
+/* line 8, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/main.scss */
+#blog {
+  background-image: url(/assets/dc1-c644eb41b12bee09bf9ec2f1a871a8738acee259d0dccc8f713bb6a95fadbb05.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: none;
+  height: 100vh;
+  width: 100%;
+}
+
+/* line 17, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/main.scss */
+#blog .blog-title {
+  color: #d3d3d3;
+  margin: 2.5vh 0;
+}
+/* line 19, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/main.scss */
+#blog .blog-title:hover {
+  color: #fff;
+}
+
+/* line 25, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/main.scss */
+#blog .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+/* line 30, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/main.scss */
+#blog .row .col-lg-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* line 39, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/main.scss */
+h5 {
+  color: #fff;
+  text-align: center;
+  margin: 1vh 0;
+}
+
+/* line 47, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/main.scss */
+.mythico-link {
+  color: #d9d9d9;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+/* line 49, /Users/matthewgaudio/Desktop/dev/ruby/projects/portfoliomwg/app/assets/stylesheets/main.scss */
+.mythico-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
