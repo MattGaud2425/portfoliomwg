@@ -1,5 +1,5 @@
 .projects {
-  min-height: 100vh;
+  min-height: 100vh !important;
   width: 100%;
   background: image-url("pattern2.png") 0 0 repeat;
   background-size: 350px;
@@ -55,7 +55,7 @@
   width: 100%;
 }
 
-#projects .row .col-4 {
+#projects .row .col-lg-4 {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -93,7 +93,7 @@
   }
 }
 
-.projects .col-4 a {
+.projects .col-lg-4 a {
   border-radius: 5px;
   background: rgba(#000, 0.2);
   height: 20rem;
