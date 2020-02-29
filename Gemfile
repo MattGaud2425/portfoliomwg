@@ -38,7 +38,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Custom Gems
 gem 'susy'
 gem 'font-awesome-sass', '~> 4.5.0'
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 3.12'
 gem 'rails_12factor'
 gem 'clearance'
 gem 'administrate'
