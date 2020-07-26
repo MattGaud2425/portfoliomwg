@@ -15,14 +15,6 @@ ActiveRecord::Schema.define(version: 20190716041842) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-  enable_extension "adminpack"
-
-  create_table "blog_titles", force: :cascade do |t|
-    t.string   "blog_tags"
-    t.string   "blog_body"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
   create_table "blogs", force: :cascade do |t|
     t.string   "blog_title"
