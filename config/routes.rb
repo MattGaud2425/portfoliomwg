@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-
-  get 'blog/blog_home'
+  get "blog/blog_home"
 
   namespace :admin do
     resources :users
@@ -9,27 +8,26 @@ Rails.application.routes.draw do
     root to: "users#index"
   end
 
-  get 'lists/dev'
+  get "lists/dev"
 
-  get 'lists/inspiration'
+  get "lists/inspiration"
 
-  get 'lists/fam'
+  get "lists/fam"
 
-  get 'partials/nav'
+  get "partials/nav"
 
-  get 'pages/trident'
+  get "pages/trident"
 
-  get 'pages/magnifico'
+  get "pages/magnifico"
 
-  get 'pages/frontier'
+  get "pages/frontier"
 
-  get 'pages/veritus'
+  get "pages/veritus"
 
-  get 'list' => "static_files#list"
+  get "list" => "static_files#list"
+  get "list2" => "static_files#list2"
 
   root "main#home"
-
-
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
